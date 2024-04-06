@@ -1,0 +1,57 @@
+
+/* public/global.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgb(108, 123, 255);
+}
+
+a {
+    color: #508dcf;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    background-color: rgb(216, 216, 216);
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+
+}
+
+h1, h2 {
+    color: #444;
+}
+.header{
+    background-color: #1d3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+.header .nav-links{
+    list-style: none;
+}
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.footer{
+    background-color: #ff8656;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    align-items: center;
+}
+.footer .foot-foot{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
